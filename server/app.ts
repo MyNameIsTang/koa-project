@@ -22,4 +22,5 @@ app.use(router.routes()).use(router.allowedMethods())
 export {
     Koa
 }
+module.exports = app
 export default app
